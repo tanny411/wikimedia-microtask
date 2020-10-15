@@ -1,4 +1,4 @@
-# Outreachy applicant microtask
+# Wikimedia microtask for Outreachy
 
 ### Project: Analyze community authored functions that build Wikipedia infoboxes and more
 
