@@ -33,7 +33,28 @@ Each file name is trimmed accordingly to extract the module names. There are 850
 
 ![images/fileVsmodule10.jpg](images/fileVsmodule10.jpg)
 
-## File size
+### Page titles
+
+Some pages have distinct titles that can be separated into groups. One of them is pages starting with `User:` such as `User:Mr. Stradivarius`, `User:AmazingJus`, `User:DePiep`. There are  97 such pages with 25 unique pages.
+
+Most pages have some suffixes attached such as `example/doc`, `example/sandbox` etc. Some of the major groups are:
+| suffix? | name | #of pages | #of unique 
+| ---|---|---|---
+| No suffix | | 819 | 819
+|  | docs | 4849 | 4078
+|  | sandbox | 724 | 260
+| Suffix | testcases | 208 | 59
+|  | data | 3638 | 3577
+|  | remaining | 5907 | 7778
+
+
+Below the distribution of each of these suffixes is shown:
+
+| docs | sandbox | testcases | data | remaining |
+| ---  | ------- | --------- | ---- | --------- |
+| ![images/docs.png](images/docs.png) | ![images/sandbox.png](images/sandbox.png) | ![images/testcases.png](images/testcases.png) | ![images/data.png](images/data.png) | ![images/rest.png](images/rest.png) |
+
+### File size
 
 A histogram of file sizes (denoted by length) is shown below. Because most files small, only files of sizes less than 5000 bytes are shown. Moreover the file formats are also colored separately. Details can be found in dev.ipynb.
 
@@ -49,7 +70,7 @@ Correlation of file format and file size.
 
 text/plain files seem to come in all sizes whereas text/wiki files are usually small in size.
 
-## Revision
+### Revision
 
 Besides, I also compare modules and formats with the latest revision time. This can give us an idea of how recently are modules revised.
 
