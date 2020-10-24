@@ -96,7 +96,7 @@ Analyzing the content of some pages of each of the file formats and suffixes I f
 
 suffix    |   #file
 ---|---
--         |   817
+\-        |   817
 data      |  3629
 doc       |    23
 others    |  2192
